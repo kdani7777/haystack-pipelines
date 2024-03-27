@@ -1,0 +1,4 @@
+import weaviate
+from haystack_integrations.document_stores.weaviate.document_store import WeaviateDocumentStore
+
+document_store = WeaviateDocumentStore(embedded_options=weaviate.embedded.EmbeddedOptions())
